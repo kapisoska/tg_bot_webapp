@@ -352,8 +352,8 @@
             <li><a href="javascript:;" onclick="DemoApp.showAlert('Hello!');">showAlert</a></li>
             <li><a href="javascript:;" onclick="DemoApp.showConfirm('Are you sure?');">showConfirm</a></li>
             <li><a href="javascript:;" onclick="DemoApp.showPopup();">showPopup</a></li>
-            <li><a href="javascript:;" onclick="DemoApp.showScanQrPopup();">showScanQrPopup</a></li>
-            <li><a href="javascript:;" onclick="DemoApp.showScanQrPopup(true);">showScanQrPopup (links only)</a></li>
+            <li><a href="javascript:;" onclick="DemoApp.showScanQrPopup();">QrPopup</a></li>
+            <li><a href="javascript:;" onclick="DemoApp.showScanQrPopup(true);">QrPopup (links only)</a></li>
         </ul>
     </div>
     <p>Haptics:</p>
@@ -577,7 +577,7 @@
                         return true;
                     }
                 } else {
-                    DemoApp.showAlert(text);
+                    DemoApp.showAlert(aboba);
 
                     return true;
                 }
